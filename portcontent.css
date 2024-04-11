@@ -1,0 +1,116 @@
+.portfolio-nav{
+    background: radial-gradient(#6281a0,#565e65);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /* margin-: px; */
+ justify-content: space-between;
+
+}
+.temp{
+    width: 50%;
+}
+.portfolio-nav-content{
+    width:50%;
+    /* background-color: red; */
+    text-align: center;
+}
+.portfolio-nav-content ul{
+display: flex;
+justify-content: space-between;
+text-align: center;
+margin-left: 0;
+padding: 0;
+margin-top: 15px;
+
+}
+
+.portfolio-nav-content ul li{
+    /* width: 120px; */
+    list-style: none;
+    text-align: left;
+    /* background-color: rebeccapurple; */
+    margin-right: 10px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.portfolio-nav-content ul li:hover{
+    color: #bcbec0;
+    text-decoration: underline;
+}
+/* photo container */
+
+.photo-container{
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+    border: 2px solid black;
+    display: block;
+}
+
+.row1{
+    /* background-color: rgb(24, 30, 137); */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row2{
+    background-color: green;
+    width: 100%;
+    height: 250px;
+}
+
+.col{
+    height: 250px;
+    width: 30%;
+    border: 2px solid pink;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-and-content{
+    width: 90%;
+    height: 240px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: block;
+    /* background-color: #7f8c8d; */
+}
+.image{
+    width: 100%;
+    height: 170px;
+    /* border: 2px solid blue; */
+    /* margin-top: 8px; */
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(#26282a,#565e65);
+    border-radius: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.image img{
+    width: 90%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.content{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin-top: 8px;
+}
+
+.content h3{
+    color: white;
+    margin-bottom: 2px;
+    /* padding: ; */
+}
+
+.content h5{
+    color: #bcbec0;;
+}
